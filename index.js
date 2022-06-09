@@ -1166,10 +1166,9 @@ client.on("messageCreate", message => {
         .setFooter ({ text: "⭐ Powered by RolePlay Bot ⭐"});
 
         var button1 = new Discord.MessageButton()
-            .setLabel("Crea Ticket")
+            .setLabel("📩 Crea Ticket")
             .setCustomId("apriTicket")
             .setStyle("SUCCESS")
-            .setEmoji("969898347014017105")
 
         var row = new Discord.MessageActionRow()
             .addComponents(button1)
@@ -1213,9 +1212,10 @@ client.on("interactionCreate", interaction => {
             .setFooter ({ text: "⭐ Powered by RolePlay Bot ⭐"});
 
             var button2 = new Discord.MessageButton()
-            .setLabel("📩 Chiudi Ticket")
+            .setLabel("Chiudi Ticket")
             .setCustomId("chiudiTicket")
             .setStyle("DANGER")
+            .setEmoji("984118425263681546")
     
             var row = new Discord.MessageActionRow()
             .addComponents(button2)
