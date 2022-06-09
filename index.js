@@ -1215,7 +1215,7 @@ client.on("interactionCreate", interaction => {
             var button2 = new Discord.MessageButton()
             .setLabel("Chiudi Ticket")
             .setCustomId("chiudiTicket")
-            .setStyle("SUCCESS")
+            .setStyle("DANGER")
             .setEmoji("984118425263681546")
     
             var row = new Discord.MessageActionRow()
