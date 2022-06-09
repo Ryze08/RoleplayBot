@@ -1154,7 +1154,7 @@ client.on("messageCreate", message => {
     }
 })
 
-
+//TICKET//
 //Prima di tutto mandare il messaggio del ticket
 client.on("messageCreate", message => {
     if (message.content == "!ticket") {
@@ -1231,3 +1231,5 @@ client.on("interactionCreate", interaction => {
                 
             }
 })
+
+//--------------------------------------------------------------------------------------//
