@@ -1213,10 +1213,9 @@ client.on("interactionCreate", interaction => {
             .setFooter ({ text: "⭐ Powered by RolePlay Bot ⭐"});
 
             var button2 = new Discord.MessageButton()
-            .setLabel("Chiudi Ticket")
+            .setLabel("📩 Chiudi Ticket")
             .setCustomId("chiudiTicket")
             .setStyle("DANGER")
-            .setEmoji("984118425263681546")
     
             var row = new Discord.MessageActionRow()
             .addComponents(button2)
